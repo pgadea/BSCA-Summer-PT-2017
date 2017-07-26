@@ -51,3 +51,9 @@ console.log(shapeNames)
 
 const greenShapes = shapes.filter(shape => shape.color === "Green")
 console.log(greenShapes)
+
+// Call filter on shapes array
+// return new array of shapes who have no. of sides < 4
+
+const lessThanFourSides = shapes.filter(shape => shape.sides < 4)
+console.log(lessThanFourSides)
