@@ -9,8 +9,8 @@ const headingStyle = {
 }
 
 const AppTitle = (props) =>
-<div style={ divStyle }>
-  <h1 style={ headingStyle }>{props.title}</h1>
-</div>
+  <div style={divStyle}>
+    <h1 style={headingStyle}>{props.title}</h1>
+  </div>
 
 export default AppTitle

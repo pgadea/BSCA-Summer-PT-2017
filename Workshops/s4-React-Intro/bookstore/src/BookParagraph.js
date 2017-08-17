@@ -5,6 +5,6 @@ const paragraphsStyle = {
 }
 
 const BookParagraph = (props) =>
-  <p style={ paragraphsStyle } >{ props.children }</p>
+  <p style={paragraphsStyle} >{ props.children }</p>
 
 export default BookParagraph

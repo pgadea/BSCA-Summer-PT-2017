@@ -2,7 +2,7 @@ import React from 'react'
 import Book from './Book'
 
 const TopFourteen = (props) => {
-  return(
+  return (
     <div>
       {
         props.books.map((book, index) =>
