@@ -18,3 +18,8 @@ export default {
 
 // Import the `DATA.js` and build an app! Your app should have a minimum of three components:
 // a component that displays a welcome message, a component that address and contact data, and a component that displays customer data
+
+// Ideas:
+//  Welcome Message Component to display cusomter name - the customer name should be dynamic
+//  Component that displays address and contact info - this data will not change
+//  Component to display cusotmer data - this component should update dynamically
