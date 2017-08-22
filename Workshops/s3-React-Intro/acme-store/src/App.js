@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Welcome from './Welcome';
+import Address from './Address'
+import Customer from './Customer'
+import DATA from './DATA'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div style={{backgroundColor: '#ecf0f1'}}>
+        <Welcome title={DATA.title} />
+        <Address street={DATA.street} city={DATA.city} state={DATA.state} zip={DATA.zip} phoneNumber={DATA.phoneNumber} />
+        <Customer customers={DATA.customers} />
       </div>
     );
   }
 }
 
-export default App;
+export default App
